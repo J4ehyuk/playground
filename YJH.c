@@ -1,8 +1,16 @@
 #include <stdio.h>
 
-int main(void){
-    printf("HI, JH");
-    // he say JH.
+void welcome(char* name){
+    printf("HI, %s\n", name);
+}
 
-    print("HI!! Sung Yeon!!");
+int main(void){
+    welcome("JH");
+    // he say JH.
+    
+    welcome("haeuniiii");
+
+    printf("HI!! Sung Yeon!!");
+
+    
 }
